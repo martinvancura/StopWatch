@@ -1,0 +1,21 @@
+{
+    "name": "mvan/stopwatch",
+    "type": "library",
+    "description": "Stop Watch for measuring running time of the script",
+    "keywords": ["Benchmark"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Vančura",
+            "email": "mv@mvan.eu",
+            "homepage": "http://www.martinvancura.cz/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": { "mvan\\StopWatch\\": "src/" }
+    }
+}
